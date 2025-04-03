@@ -11,6 +11,8 @@ public class AddTwoNumbers {
         System.out.println("The sum is: " + sum);
 	int sub = num1-num2;
 	System.out.println("The mul is: "+ sub );
+        int mul = num1 * num2;
+        System.out.println("the mul is: "+mul);
         scanner.close();
     }
 }
