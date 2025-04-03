@@ -9,6 +9,8 @@ public class AddTwoNumbers {
         int num2 = scanner.nextInt();
         int sum = num1 + num2;
         System.out.println("The sum is: " + sum);
+	int sub = num1-num2;
+	System.out.println("The mul is: "+ sub );
         scanner.close();
     }
 }
